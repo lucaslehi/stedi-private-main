@@ -9,3 +9,5 @@ dump.rdb
 .project
 bin
 
+node_modules
+

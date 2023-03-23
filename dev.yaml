@@ -44,3 +44,43 @@ spec:
               port: 4567
             initialDelaySeconds: 10
             periodSeconds: 3
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: stedi-lucas-nodeport
+spec:
+  selector:
+    app: stedi-lucasaraujo-dev
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 4567
+---
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: stedi-lucas-certificate
+spec:
+  domains:
+    - lucas.cit262.com
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: stedi-lucas-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: stedi-lucas-public
+    networking.gke.io/managed-certificates: stedi-lucas-certificate
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: stedi-lucas-nodeport
+            port:
+              number: 80

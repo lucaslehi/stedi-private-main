@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cheese-empanadas",
+  "private_key_id": "74fe2f52dc44569458a5a14b925da2884952f7fd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCTVbccLq+7D30z\ngVr9URIdbHCNLpA0RpJaNAexoHwLJuzydhxwaEwMMdDsB7ePMj68mR8Ry/ktxGug\n7PsvqvPqKiI7Xc7iujj92Nk5Mo1ZuJkYR1+iEQWbFGLRythZWpTqojOvNSOYiFGE\nkzKs60di++5O3jIyfVuBkEZCcIFsMppuA+3psqiS5/ArXgYyHt3dIKnZKqW7G1fp\nFzHtYgah1jCXDbOHGXie/GpL3D4o2Qh8Y5Re1Wq3ImRno42lm49yyAEt6qoC7Uws\nLLHz5P8ryHNPe7f+mSb3haZAa6NRFXGSZKk2ZCtKnFBzQv3gtVTItXSjqgIaNg8w\ngCYDBKNjAgMBAAECggEAHzmn1KO6X7FBLiTIpW5EohLE6c8IBeQ9CTwEs2sZTv3B\ncwOANHyOPXljV1qtVv5lmG/1Sz7JAR+jVdhTxf77sdGbLqzLd3bTNE18gChMF8tN\nOv2JcZ4c64iPBvpwDsPpUq7suEHRWPbvG+NcdpRorTxKfdGOnu+9cICku1j/vO/M\nPpMyjPV+g0yFbAg68GgIXA8TbI6gKt+8IA8T6u4HawoPX0NJnES1ekGe/RJ6WFof\nwR1Ir6SAfIrAPr4iyj7WBZU1A/yoJYOw//o2oCuo/5T+RlXJCO0xtY+9cHe8X8C3\nRgR0yoqBb3ABoEcWfpFv4IOgxhw3lUMH015dEGXarQKBgQDGlhzfxW0woRXVzIQL\nGyCKOE2TvsvdNJlfZhT7eMitfEhsFExXwiabDOjWqB0JMDBs3IGCHR+YkgNJ+y7+\ncDmy2amxMbvwnhSCQ6o2w4k3tcGQcrct+hyc/qeiMx6PcHcoyWv/GYAFaCLYpb+W\nNgIjI8SjpqTWfzvXHX/dWs8WHQKBgQC97lf2Xy02rv9wjcPo9dFeP9Kk8TjBcEpr\nThRp+HKQBjid/iroMg4xxi377dAxWkxlC5805kKrbfKtwz/+OMVzIIvrwLFTPGSz\nGLZowCmf8KsOMCPeHXmWY9oeHB3VC7MVW5P4H3dSS7Cj/H/qm7nUhYiqZfVVmepg\nNcJDnH9nfwKBgFbxoACkulKBJEMvwFvwa4W4ctaNwUm+3qty0RrsXcf+0uJm3KnL\negWGWGaqwdOlAn6W6CikQZIV01TPoVqKnehc/btzj9ogC9CgeWRypZ/7dpycbPC3\nQVHG+HO+N9ILJlB4J01Px8oWNrNtlfzY9oSWA2C29BJpMDTVWIb8XBBNAoGAR1v4\nYpGJ3ETNpk0tMSbCfgW+r8gNyefVnhFc7B+zc1dTCFFJb6n22U6bUk8cbJ5/m2tN\nasOkguIxToXQUkSkMsgkqfPg6+QB9aQwTJT+TqBOtGrz3uz2FMH5Xlyz/KqDo1+f\n7ZZs71eOy13/9XaC0E1HdrYOAhZtD67DCUIQQCMCgYAThOfcRWCp69+oBSIcEDeq\nPjSQtC73p5Km/QuJT887g+hTzqI33SYJGOIaCd223YkBWj2G9DxYxl2/MSIDXCcH\nRhanjWD9r7PxMRcXuK0K3UmqrtfNWhP9Bv9rj6gQ2Fl8H+5gy6u8Nd/I+V2IhFNj\nM9Z/OMDPQO8+QcvIuXsQ5A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "azure-pipelines-publisher@cheese-empanadas.iam.gserviceaccount.com",
+  "client_id": "116932833208818692483",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/azure-pipelines-publisher%40cheese-empanadas.iam.gserviceaccount.com"
+}
